@@ -110,7 +110,7 @@
 			// 	"rgb(0, 0, 0)";
 			// });
 
-			$(".divTableCell").on("mousedown mouseenter", function(e) {
+			$(".divTableCell").on("mousedown mouseenter touchstart", function(e) {
 				if (e.buttons == 1) {
 					handleCellChange(this, $(".color").val());
 				} else if (e.buttons == 2){
