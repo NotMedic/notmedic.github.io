@@ -110,12 +110,12 @@
 			// 	"rgb(0, 0, 0)";
 			// });
 
-			$(".divTableCell").on("mousedown mouseenter touchstart touchmove", function(e) {
-			//	if (e.buttons == 1) {
+			$(".divTableCell").on("mousedown mouseenter", function(e) {
+				if (e.buttons == 1) {
 					handleCellChange(this, $(".color").val());
-			//	} else if (e.buttons == 2){
-			//		handleCellChange(this, "rgb(0, 0, 0)");
-			//	}
+				} else if (e.buttons == 2){
+					handleCellChange(this, "rgb(0, 0, 0)");
+				}
 			});
 
 
