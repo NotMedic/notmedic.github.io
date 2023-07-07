@@ -1,13 +1,11 @@
 ---
 layout: home
-list_title: Read My Latest Posts
-title: ''
+list_title: Newest Posts
+title: 'Ramblings of a burnout'
 ---
 
-# Github Pages Demo Blog
+# Hi!
 
-Welcome to this demo blog!
+I'm Tim, a tinkerer, builder, maker, or whatever they're called now. I take things apart and can mostly put them back together, whether it's cars, electronics, or software. 
 
-This website intends to show you how to easily build and deploy a portfolio with a blog using _GitHub Pages_ and _Jekyll_.
-
-You can find the sources of this project [here](https://github.com/SimonDosda/gp-blog).
+I'm currently working on a few projects like restoring an old truck, tinkering with 3D printing, and random electronic projects with different microcontrollers and peripherals.
