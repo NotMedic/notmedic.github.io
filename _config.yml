@@ -24,9 +24,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   This project is a showcase of how to setup a portfolio website using GitHub Pages, 
   with the main accent put on the blogging part.
 baseurl: '/' # the subpath of your site, e.g. /blog
-url: 'https://notmedic.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://tim.mcguff.in' # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username: notmedic
+github_username: NotMedic
 
 permalink: /:collection/:year-:month-:day-:title:output_ext
 show_excerpts: true
@@ -35,8 +35,8 @@ show_excerpts: true
 
 # Build settings
 theme: minima
-#plugins:
-#  - jekyll-feed
+plugins:
+ - jekyll-feed
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
