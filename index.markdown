@@ -1,7 +1,7 @@
 ---
 layout: home
 list_title: Newest Posts
-title: 'Ramblings of a burnout'
+title: ''
 ---
 
 # Hi!
