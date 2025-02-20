@@ -32,21 +32,21 @@ For connecting to UART, remember that your TX connects to the devices RX, and yo
 The FTDI Adapter can't support enough current for the ESP32, so you'll need an external power supply for the board. 
 
 Here's an FTDI wiring diagarm, but other devices will be similar.
-`![GL-C-310WL Wiring]({{ "/assets/2025-02-19-ftdi-wiring.png" | relative_url }})`
+![GL-C-310WL Wiring]({{ "/assets/2025-02-19-ftdi-wiring.png" | relative_url }})
 
 The Green and Blue wires are DuPont calbes, and can have their tips slightly bent towards each other allowing for easier contact with the 1.25mm pitch test pads. 
 
 Using a steady hand and a bit of patience, you can hold the DuPont cables on the pads and get a good serial connection.
 
-`![Flashing]({{ "/assets/2025-02-19-wled-tx-rx.png" | relative_url }})`
+![Flashing]({{ "/assets/2025-02-19-wled-tx-rx.png" | relative_url }})
 
 I tested with putty using a speed of 112500 baud to make sure we could see the expected boot messages. To put the ESP32 into Boot from UART mode, you'll want to hold IO0 (the "Function" button on the GLEDOPTO), while pressing and releasing the EN button (Restart). You should see the ESP32 boot message and "waiting for download."
 
-`![putty]({{ "/assets/2025-02-19-putty.png" | relative_url }})`
+![putty]({{ "/assets/2025-02-19-putty.png" | relative_url }})
 
 Close putty or disconnect from the serial port, and then esptool.py can be used to read, erase, or flash the ESP32.  By using the `--before no_reset` flag, esptool won't reset the ESP32 before trying to upload code. 
 
 From here you can flash another image like Micropython or you own code. 
 
-`![esptool.py]({{ "/assets/2025-02-19-esptool.png" | relative_url }})`
+![esptool.py]({{ "/assets/2025-02-19-esptool.png" | relative_url }})
 
