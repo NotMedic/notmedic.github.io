@@ -40,7 +40,7 @@ Using a steady hand and a bit of patience, you can hold the DuPont cables on the
 
 ![Flashing]({{ "/assets/2025-02-19-wled-tx-rx.png" | relative_url }})
 
-I tested with putty using a speed of 112500 baud to make sure we could see the expected boot messages. To put the ESP32 into Boot from UART mode, you'll want to hold IO0 (the "Function" button on the GLEDOPTO), while pressing and releasing the EN button (Restart). You should see the ESP32 boot message and "waiting for download."
+I tested with putty using a speed of 112500 baud to make sure we could see the expected boot messages. To put the ESP32 into Boot from UART mode, you'll want to hold IO0 (the "Function" button on the GLEDOPTO), while pressing and releasing the EN button (Restart). You should see the ESP32 boot message and "waiting for download." [Espressif provides an explanation on the GPIO pins and boot mode selection.](https://docs.espressif.com/projects/esptool/en/latest/esp32/advanced-topics/boot-mode-selection.html)
 
 ![putty]({{ "/assets/2025-02-19-putty.png" | relative_url }})
 
