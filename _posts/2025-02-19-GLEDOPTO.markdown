@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Flash GLEDOPTO GL-C-210WL"
+title: "Flash GLEDOPTO GL-C-310WL"
 date: 2025-02-19
 categories: jekyll blogging
 feature_image: 2025-02-19-gledopto.png
