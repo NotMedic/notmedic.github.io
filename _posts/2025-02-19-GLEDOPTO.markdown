@@ -6,7 +6,7 @@ categories: jekyll blogging
 feature_image: 2025-02-19-gledopto.png
 ---
 
-I was recently working on a project that needed an ESP32 powered from a 12 volt source with 4 GPIO PINs, ready-made, and in a case. I started going down the custom built route when I ran across the [GLEDOPTO GL-C-310WL](_posts/2021-06-01-write-a-post.markdown) for a good price and picked one up to see if it could be re-flashed.  The 310WL differs from the 309WL in that the 310L has a built-in I2C microphone, which may be useful for some projects. 
+I was recently working on a project that needed an ESP32 powered from a 12 volt source with 4 GPIO PINs, ready-made, and in a case. I started going down the custom built route when I ran across the [GLEDOPTO GL-C-310WL](https://www.gledopto.com/h-col-443.html) for a good price and picked one up to see if it could be re-flashed.  The 310WL differs from the 309WL in that the 310L has a built-in I2S microphone, which may be useful for some projects like OpenAI integration, but that's a future project. 
 
 GLEDOPTO was nice enough to leave the test pads exposed and easily accessible when you remove the case. You'll also notice the buttons are labeled 'EN' and 'IO0', which are used in the flashing process. 
 
