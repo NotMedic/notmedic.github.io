@@ -10,7 +10,7 @@ I was recently working on a project that needed an ESP32 powered from a 12 volt 
 
 GLEDOPTO was nice enough to leave the test pads exposed and easily accessible when you remove the case. You'll also notice the buttons are labeled 'EN' and 'IO0', which are used in the flashing process. 
 
-`![GL-C-310WL Pads]({{ "/assets/2025-02-19-wled-pads.png" | relative_url }})`
+![GL-C-310WL Pads]({{ "/assets/2025-02-19-wled-pads.png" | relative_url }})
 
 The pins from left to right are:
 
