@@ -18,12 +18,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
-# Security fixes for Dependabot alerts
-gem "nokogiri", ">= 1.19.0"  # Fix for CVE-2024-34459 and other libxml2 vulnerabilities
-gem "activesupport", ">= 7.0.8.6"  # Fix for XSS, ReDoS, and encrypted files disclosure
-gem "commonmarker", ">= 0.23.10"  # Fix for integer overflow, quadratic complexity, and autolink DoS
-gem "faraday", ">= 2.7.12"  # Fix for SSRF vulnerability
-
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
